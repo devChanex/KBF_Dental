@@ -103,29 +103,6 @@ class ServiceClass
             </tr>';
             }
 
-        } else {
-            echo '
-<tr>
-<td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-            </tr>
-
-
-
-
-';
-
         }
     }
 

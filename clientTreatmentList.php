@@ -13,12 +13,15 @@
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
-     <!-- Custom styles for this page -->
-     <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <!-- Custom styles for this page -->
+    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <link href="css/sortable.css" rel="stylesheet">
 
 </head>
 
@@ -42,59 +45,58 @@
 
                     <!-- Page Heading -->
                     <div class="card shadow mb-12">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Client Treatment List</h6>
+                        <div class="card-header py-3 d-flex justify-content-between">
+                            <h6 class="m-0 font-weight-bold">Client Treatment List</h6>
+                            <div class="d-flex align-items-center gap-2 ms-auto">
+                                <strong>Search: </strong><input type="search" id="tableSearch"
+                                    class="form-control form-control-sm" placeholder="" style="width: 300px;"
+                                    oninput="getclientdata();">
+
+                            </div>
                         </div>
-                        <div class="card-body" >
-                            <!-- USE THIS SPACE FOR YOUR ADDITIONAL CODE SNIPPET -->   
-                            <div class="card-body" >
-<div class="table-responsive">
-    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-        <thead>
-            <tr>
-                <th>Client id</th>
-                <th>Name</th>
-                <th>Nick Name</th>
-                <th>Age</th>
-                <th>Sex</th>
-                <th>Date of Birth</th>
-                <th>Mobile Number</th>
-                <th>Home Address</th>
-                <th>Guardian Name</th>
-                <th>Latest Treatment</th>
-                <th>Action</th>
-            </tr>
-        </thead>
-        <tfoot>
-            <tr>
-            <th>Client id</th>
-                <th>Name</th>
-                <th>Nick Name</th>
-                <th>Age</th>
-                <th>Sex</th>
-                <th>Date of Birth</th>
-                <th>Mobile Number</th>
-                <th>Home Address</th>
-                <th>Guardian Name</th>
-                <th>Latest Treatment</th>
-                <th>Action</th>
-            </tr>
-        </tfoot>
-        <tbody id="resultResponsez">
-            
-            
-    
-        </tbody>
-    </table>
-</div>
-</div>
+                        <div class="card-body">
+                            <!-- USE THIS SPACE FOR YOUR ADDITIONAL CODE SNIPPET -->
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered" id="sortableTable" width="100%" cellspacing="0">
+                                        <thead>
+                                            <tr>
+                                                <th onclick="sortTable(this)">Client id<span class="sort-icon"></span>
+                                                <th onclick="sortTable(this)">Name<span class="sort-icon"></span>
+                                                <th onclick="sortTable(this)">Nick Name<span class="sort-icon"></span>
+                                                <th onclick="sortTable(this)">Age<span class="sort-icon"></span>
+                                                <th onclick="sortTable(this)">Sex<span class="sort-icon"></span>
+                                                <th onclick="sortTable(this)">Date of Birth<span
+                                                        class="sort-icon"></span>
+                                                <th onclick="sortTable(this)">Mobile Number<span
+                                                        class="sort-icon"></span>
+                                                <th onclick="sortTable(this)">Home Address<span
+                                                        class="sort-icon"></span>
+                                                <th onclick="sortTable(this)">Guardian Name<span
+                                                        class="sort-icon"></span>
+                                                <th onclick="sortTable(this)">Latest Treatment<span
+                                                        class="sort-icon"></span>
+                                                <th onclick="sortTable(this)">Action<span class="sort-icon"></span>
+                                            </tr>
+                                        </thead>
 
-
-                           
+                                        <tbody id="resultResponseBody">
 
 
 
-                            <!-- END OF YOUR ADDITIONAL CODE SNIPPET -->   
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <input type="hidden" id="currentPage" value="1">
+                                <div id="pagination"></div>
+                            </div>
+
+
+
+
+
+
+                            <!-- END OF YOUR ADDITIONAL CODE SNIPPET -->
                         </div>
                     </div>
 
@@ -106,27 +108,28 @@
 
             <?php include_once('bars/footer.php'); ?>
 
-    <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <!-- Bootstrap core JavaScript-->
+            <script src="vendor/jquery/jquery.min.js"></script>
+            <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+            <!-- Core plugin JavaScript-->
+            <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Page level plugins -->
-    <script src="vendor/datatables/jquery.dataTables.min.js"></script>
-    <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+            <!-- Page level plugins -->
+            <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+            <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
 
-    <!-- Page level custom scripts -->
-    <script src="js/demo/datatables-demo.js"></script>
+            <!-- Page level custom scripts -->
+            <script src="js/demo/datatables-demo.js"></script>
 
-    <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin-2.min.js"></script>
-    <script src="controllers/logOutConroller.js"></script>
-    <script src="controllers/sessionController.js"></script>
-    <script src="controllers/getClientTreatmentListController.js"></script>
+            <!-- Custom scripts for all pages-->
+            <script src="js/sb-admin-2.min.js"></script>
+            <script src="controllers/logOutConroller.js"></script>
+            <script src="controllers/sessionController.js"></script>
+            <script src="controllers/getClientTreatmentListController.js"></script>
+            <script src="js/sortable.js"></script>
 
-    
+
 
 </body>
 

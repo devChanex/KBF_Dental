@@ -47,10 +47,11 @@
                     <!-- Page Heading -->
                     <div class="card shadow mb-12">
                         <div class="card-header py-3 d-flex justify-content-between">
-                            <h6 class="m-0 font-weight-bold">Client Profile Lists</h6>
+                            <h6 class="m-0 font-weight-bold">Client Profile List</h6>
                             <div class="d-flex align-items-center gap-2 ms-auto">
-                                <input type="search" id="tableSearch" class="form-control form-control-sm"
-                                    placeholder="Search..." style="width: 300px;" oninput="getclientdata();">
+                                <strong>Search: </strong><input type="search" id="tableSearch"
+                                    class="form-control form-control-sm" placeholder="" style="width: 300px;"
+                                    oninput="getclientdata();">
 
                             </div>
                         </div>
