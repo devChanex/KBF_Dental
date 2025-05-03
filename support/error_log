@@ -1,0 +1,93 @@
+[07-Apr-2023 19:14:56 Asia/Manila] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) or const (T_CONST) in /home/kbfdenta/public_html/uat/support/index.php on line 59
+[07-Apr-2023 19:27:42 Asia/Manila] PHP Notice:  Undefined index: table in /home/kbfdenta/public_html/uat/support/index.php on line 39
+[07-Apr-2023 19:27:42 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kbfdenta_sysdb.tickets' doesn't exist in /home/kbfdenta/public_html/uat/support/index.php:70
+Stack trace:
+#0 /home/kbfdenta/public_html/uat/support/index.php(70): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/uat/support/index.php(44): ServiceClass->processTicket('1', '1006', NULL, 'price', '12000', '13000')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/uat/support/index.php on line 70
+[07-Apr-2023 19:28:19 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kbfdenta_sysdb.tickets' doesn't exist in /home/kbfdenta/public_html/uat/support/index.php:70
+Stack trace:
+#0 /home/kbfdenta/public_html/uat/support/index.php(70): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/uat/support/index.php(44): ServiceClass->processTicket('1', '1006', 'treatmentsub', 'price', '12000', '13000')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/uat/support/index.php on line 70
+[07-Apr-2023 19:31:20 Asia/Manila] PHP Notice:  Undefined variable: tablename in /home/kbfdenta/public_html/uat/support/index.php on line 88
+[07-Apr-2023 19:31:20 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'set price='13000' where ticketid='1006' and price='12000'' at line 1 in /home/kbfdenta/public_html/uat/support/index.php:93
+Stack trace:
+#0 /home/kbfdenta/public_html/uat/support/index.php(93): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/uat/support/index.php(44): ServiceClass->processTicket('1', '1006', 'treatmentsub', 'price', '12000', '13000')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/uat/support/index.php on line 93
+[07-Apr-2023 19:32:31 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ticketid' in 'where clause' in /home/kbfdenta/public_html/uat/support/index.php:93
+Stack trace:
+#0 /home/kbfdenta/public_html/uat/support/index.php(93): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/uat/support/index.php(44): ServiceClass->processTicket('1', '1006', 'treatmentsub', 'price', '12000', '13000')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/uat/support/index.php on line 93
+[07-Apr-2023 19:34:40 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ticketid' in 'where clause' in /home/kbfdenta/public_html/uat/support/index.php:93
+Stack trace:
+#0 /home/kbfdenta/public_html/uat/support/index.php(93): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/uat/support/index.php(44): ServiceClass->processTicket('1', '1008', 'treatmentsub', 'price', '12000', '13000')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/uat/support/index.php on line 93
+[07-Apr-2023 19:34:47 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ticketid' in 'where clause' in /home/kbfdenta/public_html/uat/support/index.php:93
+Stack trace:
+#0 /home/kbfdenta/public_html/uat/support/index.php(93): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/uat/support/index.php(44): ServiceClass->processTicket('1', '1008', 'treatmentsub', 'price', '12000', '13000')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/uat/support/index.php on line 93
+[07-Apr-2023 19:41:29 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ticketid' in 'where clause' in /home/kbfdenta/public_html/uat/support/index.php:93
+Stack trace:
+#0 /home/kbfdenta/public_html/uat/support/index.php(93): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/uat/support/index.php(44): ServiceClass->processTicket('1', '1009', 'treatmentsub', 'price', '12000', '13000')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/uat/support/index.php on line 93
+[07-Apr-2023 19:41:35 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ticketid' in 'where clause' in /home/kbfdenta/public_html/uat/support/index.php:93
+Stack trace:
+#0 /home/kbfdenta/public_html/uat/support/index.php(93): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/uat/support/index.php(44): ServiceClass->processTicket('1', '1009', 'treatmentsub', 'price', '12000', '13000')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/uat/support/index.php on line 93
+[07-Apr-2023 19:43:21 Asia/Manila] PHP Notice:  Undefined variable: refname in /home/kbfdenta/public_html/uat/support/index.php on line 90
+[07-Apr-2023 19:43:21 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=NULL and price='12000'' at line 1 in /home/kbfdenta/public_html/uat/support/index.php:95
+Stack trace:
+#0 /home/kbfdenta/public_html/uat/support/index.php(95): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/uat/support/index.php(46): ServiceClass->processTicket('1', '1009', 'treatmentsub', 'price', '12000', '13000', 'tsubid')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/uat/support/index.php on line 95
+[07-Apr-2023 19:55:46 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'undefined' in 'where clause' in /home/kbfdenta/public_html/uat/support/index.php:96
+Stack trace:
+#0 /home/kbfdenta/public_html/uat/support/index.php(96): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/uat/support/index.php(46): ServiceClass->processTicket('1', '1013', 'treatmentsoa', 'total', '12000', '14000', 'undefined', '')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/uat/support/index.php on line 96
+[07-Apr-2023 19:55:54 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'undefined' in 'where clause' in /home/kbfdenta/public_html/uat/support/index.php:96
+Stack trace:
+#0 /home/kbfdenta/public_html/uat/support/index.php(96): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/uat/support/index.php(46): ServiceClass->processTicket('1', '1013', 'treatmentsoa', 'total', '12000', '14000', 'undefined', '')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/uat/support/index.php on line 96
+[07-Apr-2023 19:57:07 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'undefined' in 'where clause' in /home/kbfdenta/public_html/uat/support/index.php:96
+Stack trace:
+#0 /home/kbfdenta/public_html/uat/support/index.php(96): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/uat/support/index.php(46): ServiceClass->processTicket('1', '1013', 'treatmentsoa', 'total', '12000', '14000', 'undefined', '')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/uat/support/index.php on line 96
+[07-Apr-2023 20:00:52 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'undefined' in 'where clause' in /home/kbfdenta/public_html/uat/support/index.php:96
+Stack trace:
+#0 /home/kbfdenta/public_html/uat/support/index.php(96): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/uat/support/index.php(46): ServiceClass->processTicket('1', '1014', 'treatmentsub', 'remarks', 'SHADE A2, DISCO...', 'SHADE A2, DISCO...', 'undefined', '1827')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/uat/support/index.php on line 96
+[07-Apr-2023 20:01:01 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'undefined' in 'where clause' in /home/kbfdenta/public_html/uat/support/index.php:96
+Stack trace:
+#0 /home/kbfdenta/public_html/uat/support/index.php(96): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/uat/support/index.php(46): ServiceClass->processTicket('1', '1014', 'treatmentsub', 'remarks', 'SHADE A2, DISCO...', 'SHADE A2, DISCO...', 'undefined', '1827')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/uat/support/index.php on line 96
+[07-Apr-2023 20:08:11 Asia/Manila] PHP Notice:  Undefined index: newvalue in /home/kbfdenta/public_html/uat/support/index.php on line 44
+[07-Apr-2023 20:08:21 Asia/Manila] PHP Notice:  Undefined index: newvalue in /home/kbfdenta/public_html/uat/support/index.php on line 44
+[07-Apr-2023 20:08:28 Asia/Manila] PHP Notice:  Undefined index: newvalue in /home/kbfdenta/public_html/uat/support/index.php on line 44
+[07-Apr-2023 20:08:50 Asia/Manila] PHP Notice:  Undefined index: newvalue in /home/kbfdenta/public_html/uat/support/index.php on line 44
+[07-Apr-2023 20:09:02 Asia/Manila] PHP Notice:  Undefined index: newvalue in /home/kbfdenta/public_html/uat/support/index.php on line 44

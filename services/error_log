@@ -1,0 +1,256 @@
+[22-Oct-2022 15:04:51 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/kbfdenta/public_html/system/services/esoaSubmitService.php:34
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/esoaSubmitService.php(11): ServiceClass->submitEsoa('DR. KATHLEEN B ...', '2019-11-26', '9:00AM-10:30AM', '424', '0')
+#1 {main}
+  thrown in /home/kbfdenta/public_html/system/services/esoaSubmitService.php on line 34
+[22-Oct-2022 15:05:19 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/kbfdenta/public_html/system/services/OptionloadTreatmentService.php:28
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/OptionloadTreatmentService.php(4): ServiceClass->loadTreatmentList()
+#1 {main}
+  thrown in /home/kbfdenta/public_html/system/services/OptionloadTreatmentService.php on line 28
+[22-Oct-2022 15:05:31 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/kbfdenta/public_html/system/services/clientTreatmentListService.php:29
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/clientTreatmentListService.php(4): ServiceClass->loadClientTreatment()
+#1 {main}
+  thrown in /home/kbfdenta/public_html/system/services/clientTreatmentListService.php on line 29
+[22-Oct-2022 15:05:37 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/kbfdenta/public_html/system/services/clientTreatmentListService.php:29
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/clientTreatmentListService.php(4): ServiceClass->loadClientTreatment()
+#1 {main}
+  thrown in /home/kbfdenta/public_html/system/services/clientTreatmentListService.php on line 29
+[22-Oct-2022 15:05:45 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/kbfdenta/public_html/system/services/clientTreatmentListService.php:29
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/clientTreatmentListService.php(4): ServiceClass->loadClientTreatment()
+#1 {main}
+  thrown in /home/kbfdenta/public_html/system/services/clientTreatmentListService.php on line 29
+[22-Oct-2022 15:05:58 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/kbfdenta/public_html/system/services/validateUserAccount.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/validateUserAccount.php(10): ServiceClass->loginAccount('admins', 'z8NgWBKFkb')
+#1 {main}
+  thrown in /home/kbfdenta/public_html/system/services/validateUserAccount.php on line 38
+[22-Oct-2022 15:06:27 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/kbfdenta/public_html/system/services/validateUserAccount.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/validateUserAccount.php(10): ServiceClass->loginAccount('admins', 'z8NgWBKFkb')
+#1 {main}
+  thrown in /home/kbfdenta/public_html/system/services/validateUserAccount.php on line 38
+[22-Oct-2022 15:11:50 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/kbfdenta/public_html/system/services/validateUserAccount.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/validateUserAccount.php(10): ServiceClass->loginAccount('admins', 'z8NgWBKFkb')
+#1 {main}
+  thrown in /home/kbfdenta/public_html/system/services/validateUserAccount.php on line 38
+[22-Oct-2022 15:12:03 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/kbfdenta/public_html/system/services/validateUserAccount.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/validateUserAccount.php(10): ServiceClass->loginAccount('admins', 'z8NgWBKFkb')
+#1 {main}
+  thrown in /home/kbfdenta/public_html/system/services/validateUserAccount.php on line 38
+[22-Oct-2022 15:24:12 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/kbfdenta/public_html/system/services/validateUserAccount.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/validateUserAccount.php(10): ServiceClass->loginAccount('admins', 'z8NgWBKFkb')
+#1 {main}
+  thrown in /home/kbfdenta/public_html/system/services/validateUserAccount.php on line 38
+[22-Oct-2022 15:32:01 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/kbfdenta/public_html/system/services/validateUserAccount.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/validateUserAccount.php(10): ServiceClass->loginAccount('admins', 'z8NgWBKFkb')
+#1 {main}
+  thrown in /home/kbfdenta/public_html/system/services/validateUserAccount.php on line 38
+[07-Apr-2023 10:53:51 Asia/Manila] PHP Notice:  Undefined variable: headers in /home/kbfdenta/public_html/uat/services/validateFPUsername.php on line 70
+[07-Apr-2023 10:54:03 Asia/Manila] PHP Notice:  Undefined variable: headers in /home/kbfdenta/public_html/uat/services/validateFPUsername.php on line 70
+[07-Apr-2023 11:20:11 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined method emailSnippet::lsendEmail() in /home/kbfdenta/public_html/uat/services/validateUserAccount.php:57
+Stack trace:
+#0 /home/kbfdenta/public_html/uat/services/validateUserAccount.php(10): ServiceClass->loginAccount('chanex', 'admin')
+#1 {main}
+  thrown in /home/kbfdenta/public_html/uat/services/validateUserAccount.php on line 57
+[07-Apr-2023 11:21:04 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined method emailSnippet::lsendEmail() in /home/kbfdenta/public_html/uat/services/validateUserAccount.php:57
+Stack trace:
+#0 /home/kbfdenta/public_html/uat/services/validateUserAccount.php(10): ServiceClass->loginAccount('chanex', 'admin')
+#1 {main}
+  thrown in /home/kbfdenta/public_html/uat/services/validateUserAccount.php on line 57
+[07-Apr-2023 11:22:50 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined method emailSnippet::lsendEmail() in /home/kbfdenta/public_html/uat/services/validateUserAccount.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/kbfdenta/public_html/uat/services/validateUserAccount.php on line 13
+[07-Apr-2023 11:23:48 Asia/Manila] PHP Notice:  Undefined index: username in /home/kbfdenta/public_html/uat/services/validateUserAccount.php on line 8
+[07-Apr-2023 11:23:48 Asia/Manila] PHP Notice:  Undefined index: password in /home/kbfdenta/public_html/uat/services/validateUserAccount.php on line 9
+[07-Apr-2023 11:23:48 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined method emailSnippet::lsendEmail() in /home/kbfdenta/public_html/uat/services/validateUserAccount.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/kbfdenta/public_html/uat/services/validateUserAccount.php on line 13
+[07-Apr-2023 11:24:14 Asia/Manila] PHP Notice:  Undefined index: username in /home/kbfdenta/public_html/uat/services/validateUserAccount.php on line 8
+[07-Apr-2023 11:24:14 Asia/Manila] PHP Notice:  Undefined index: password in /home/kbfdenta/public_html/uat/services/validateUserAccount.php on line 9
+[07-Apr-2023 11:24:14 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/kbfdenta/public_html/uat/services/validateUserAccount.php on line 13
+[07-Apr-2023 11:24:49 Asia/Manila] PHP Notice:  Undefined variable: mailerSnippet in /home/kbfdenta/public_html/uat/services/validateUserAccount.php on line 57
+[07-Apr-2023 11:24:49 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function sendEmail() on null in /home/kbfdenta/public_html/uat/services/validateUserAccount.php:57
+Stack trace:
+#0 /home/kbfdenta/public_html/uat/services/validateUserAccount.php(12): ServiceClass->loginAccount('chanex', 'admin')
+#1 {main}
+  thrown in /home/kbfdenta/public_html/uat/services/validateUserAccount.php on line 57
+[07-Apr-2023 11:24:55 Asia/Manila] PHP Notice:  Undefined index: username in /home/kbfdenta/public_html/uat/services/validateUserAccount.php on line 8
+[07-Apr-2023 11:24:55 Asia/Manila] PHP Notice:  Undefined index: password in /home/kbfdenta/public_html/uat/services/validateUserAccount.php on line 9
+[07-Apr-2023 11:25:30 Asia/Manila] PHP Notice:  Undefined index: username in /home/kbfdenta/public_html/uat/services/validateUserAccount.php on line 7
+[07-Apr-2023 11:25:30 Asia/Manila] PHP Notice:  Undefined index: password in /home/kbfdenta/public_html/uat/services/validateUserAccount.php on line 8
+[07-Apr-2023 11:25:32 Asia/Manila] PHP Notice:  Undefined index: username in /home/kbfdenta/public_html/uat/services/validateUserAccount.php on line 7
+[07-Apr-2023 11:25:32 Asia/Manila] PHP Notice:  Undefined index: password in /home/kbfdenta/public_html/uat/services/validateUserAccount.php on line 8
+[07-Apr-2023 11:35:08 Asia/Manila] PHP Notice:  Undefined variable: SESSION in /home/kbfdenta/public_html/uat/services/validateUserAccount.php on line 18
+[07-Apr-2023 11:57:07 Asia/Manila] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/kbfdenta/public_html/uat/services/mailerSnippet.php on line 13
+[07-Apr-2023 12:20:06 Asia/Manila] PHP Notice:  Undefined index: fname in /home/kbfdenta/public_html/uat/services/pendingAppointmentListService.php on line 47
+[07-Apr-2023 12:20:06 Asia/Manila] PHP Notice:  Undefined index: fname in /home/kbfdenta/public_html/uat/services/pendingAppointmentListService.php on line 48
+[07-Apr-2023 13:34:41 Asia/Manila] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/kbfdenta/public_html/uat/services/esoaSubmitService.php on line 107
+[07-Apr-2023 13:34:54 Asia/Manila] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/kbfdenta/public_html/uat/services/esoaSubmitService.php on line 107
+[07-Apr-2023 14:19:19 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/kbfdenta/public_html/uat/services/esoaSubmitService.php on line 107
+[07-Apr-2023 14:29:34 Asia/Manila] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH), expecting function (T_FUNCTION) or const (T_CONST) in /home/kbfdenta/public_html/uat/services/esoaSubmitService.php on line 169
+[07-Apr-2023 14:30:38 Asia/Manila] PHP Warning:  Use of undefined constant month - assumed 'month' (this will throw an Error in a future version of PHP) in /home/kbfdenta/public_html/uat/services/esoaSubmitService.php on line 55
+[07-Apr-2023 17:53:07 Asia/Manila] PHP Notice:  Undefined index: tsubid in /home/kbfdenta/public_html/uat/services/printSoaService.php on line 107
+[07-Apr-2023 17:54:17 Asia/Manila] PHP Notice:  Undefined index: tsubid in /home/kbfdenta/public_html/uat/services/printSoaService.php on line 107
+[07-Apr-2023 17:54:40 Asia/Manila] PHP Notice:  Undefined index: tsubid in /home/kbfdenta/public_html/uat/services/printSoaService.php on line 107
+[07-Apr-2023 17:55:15 Asia/Manila] PHP Notice:  Undefined index: tsubid in /home/kbfdenta/public_html/uat/services/printSoaService.php on line 107
+[07-Apr-2023 18:54:15 Asia/Manila] PHP Warning:  A non-numeric value encountered in /home/kbfdenta/public_html/uat/services/ticketservice.php on line 76
+[07-Apr-2023 20:25:56 Asia/Manila] PHP Notice:  Undefined variable: soatotal in /home/kbfdenta/public_html/uat/services/printSoaService.php on line 36
+[07-Apr-2023 20:25:56 Asia/Manila] PHP Notice:  Undefined index: a.total in /home/kbfdenta/public_html/uat/services/printSoaService.php on line 39
+[07-Apr-2023 20:29:11 Asia/Manila] PHP Notice:  Undefined variable: total in /home/kbfdenta/public_html/uat/services/printSoaService.php on line 57
+[07-Apr-2023 20:29:47 Asia/Manila] PHP Notice:  Undefined variable: total in /home/kbfdenta/public_html/uat/services/printSoaService.php on line 57
+[08-Apr-2023 21:11:08 Asia/Manila] PHP Notice:  Undefined index: supportemail in /home/kbfdenta/public_html/system/services/ticketservice.php on line 61
+[08-Apr-2023 21:11:08 Asia/Manila] PHP Notice:  Undefined index: supportemail in /home/kbfdenta/public_html/system/services/ticketservice.php on line 78
+[08-Apr-2023 21:13:52 Asia/Manila] PHP Notice:  Undefined index: supportemail in /home/kbfdenta/public_html/system/services/ticketservice.php on line 61
+[08-Apr-2023 21:13:52 Asia/Manila] PHP Notice:  Undefined index: supportemail in /home/kbfdenta/public_html/system/services/ticketservice.php on line 78
+[08-Apr-2023 21:15:58 Asia/Manila] PHP Notice:  Undefined index: supportemail in /home/kbfdenta/public_html/system/services/ticketservice.php on line 61
+[08-Apr-2023 21:15:58 Asia/Manila] PHP Notice:  Undefined index: supportemail in /home/kbfdenta/public_html/system/services/ticketservice.php on line 78
+[08-Apr-2023 21:19:35 Asia/Manila] PHP Notice:  Undefined index: support-email in /home/kbfdenta/public_html/system/services/validateUserAccount.php on line 17
+[08-Apr-2023 21:20:26 Asia/Manila] PHP Notice:  Undefined index: supportemail in /home/kbfdenta/public_html/system/services/validateUserAccount.php on line 17
+[21-Nov-2024 16:58:19 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soadaterangeservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soadaterangeservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soadaterangeservice.php(7): ServiceClass->loadClientTreatment('', '')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soadaterangeservice.php on line 38
+[11-Feb-2025 16:43:46 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soadaterangeservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soadaterangeservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soadaterangeservice.php(7): ServiceClass->loadClientTreatment('', '')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soadaterangeservice.php on line 38
+[28-Feb-2025 16:28:48 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soadaterangeservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soadaterangeservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soadaterangeservice.php(7): ServiceClass->loadClientTreatment('', '')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soadaterangeservice.php on line 38
+[11-Mar-2025 13:20:18 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soadaterangeservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soadaterangeservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soadaterangeservice.php(7): ServiceClass->loadClientTreatment('', '')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soadaterangeservice.php on line 38
+[25-Mar-2025 11:16:32 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soadaterangeservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soadaterangeservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soadaterangeservice.php(7): ServiceClass->loadClientTreatment('', '')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soadaterangeservice.php on line 38
+[28-Mar-2025 17:04:01 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soadaterangeservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soadaterangeservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soadaterangeservice.php(7): ServiceClass->loadClientTreatment('', '')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soadaterangeservice.php on line 38
+[28-Mar-2025 17:05:24 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soadaterangeservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soadaterangeservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soadaterangeservice.php(7): ServiceClass->loadClientTreatment('', '')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soadaterangeservice.php on line 38
+[09-Apr-2025 17:44:49 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soaperclientservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soaperclientservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soaperclientservice.php(7): ServiceClass->loadClientTreatment('', '', '')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soaperclientservice.php on line 38
+[09-Apr-2025 17:44:49 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soaperclientservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soaperclientservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soaperclientservice.php(7): ServiceClass->loadClientTreatment('', '', '')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soaperclientservice.php on line 38
+[09-Apr-2025 17:44:50 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soaperclientservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soaperclientservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soaperclientservice.php(7): ServiceClass->loadClientTreatment('', '', 'G')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soaperclientservice.php on line 38
+[09-Apr-2025 17:44:51 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soaperclientservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soaperclientservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soaperclientservice.php(7): ServiceClass->loadClientTreatment('', '', 'Ga')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soaperclientservice.php on line 38
+[09-Apr-2025 17:44:51 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soaperclientservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soaperclientservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soaperclientservice.php(7): ServiceClass->loadClientTreatment('', '', 'G')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soaperclientservice.php on line 38
+[09-Apr-2025 17:44:52 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soaperclientservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soaperclientservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soaperclientservice.php(7): ServiceClass->loadClientTreatment('', '', '')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soaperclientservice.php on line 38
+[09-Apr-2025 17:45:46 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soaperclientservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soaperclientservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soaperclientservice.php(7): ServiceClass->loadClientTreatment('', '', '')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soaperclientservice.php on line 38
+[09-Apr-2025 17:45:47 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soaperclientservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soaperclientservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soaperclientservice.php(7): ServiceClass->loadClientTreatment('', '', '')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soaperclientservice.php on line 38
+[12-Apr-2025 15:46:38 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soadaterangeservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soadaterangeservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soadaterangeservice.php(7): ServiceClass->loadClientTreatment('', '')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soadaterangeservice.php on line 38
+[19-Apr-2025 23:37:03 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soaperclientservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soaperclientservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soaperclientservice.php(7): ServiceClass->loadClientTreatment('', '', '')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soaperclientservice.php on line 38
+[19-Apr-2025 23:37:04 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soaperclientservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soaperclientservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soaperclientservice.php(7): ServiceClass->loadClientTreatment('', '', 'b')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soaperclientservice.php on line 38
+[19-Apr-2025 23:37:04 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soaperclientservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soaperclientservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soaperclientservice.php(7): ServiceClass->loadClientTreatment('', '', '')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soaperclientservice.php on line 38
+[19-Apr-2025 23:37:05 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soaperclientservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soaperclientservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soaperclientservice.php(7): ServiceClass->loadClientTreatment('', '', 'n')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soaperclientservice.php on line 38
+[19-Apr-2025 23:37:05 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soaperclientservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soaperclientservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soaperclientservice.php(7): ServiceClass->loadClientTreatment('', '', 'no')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soaperclientservice.php on line 38
+[19-Apr-2025 23:37:05 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soaperclientservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soaperclientservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soaperclientservice.php(7): ServiceClass->loadClientTreatment('', '', 'non')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soaperclientservice.php on line 38
+[19-Apr-2025 23:37:06 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1525 Incorrect DATE value: '' in /home/kbfdenta/public_html/system/services/soaperclientservice.php:38
+Stack trace:
+#0 /home/kbfdenta/public_html/system/services/soaperclientservice.php(38): PDOStatement->execute()
+#1 /home/kbfdenta/public_html/system/services/soaperclientservice.php(7): ServiceClass->loadClientTreatment('', '', 'nona')
+#2 {main}
+  thrown in /home/kbfdenta/public_html/system/services/soaperclientservice.php on line 38
