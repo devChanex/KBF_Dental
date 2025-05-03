@@ -5,15 +5,15 @@ header('Access-Control-Allow-Origin: *');
 date_default_timezone_set("Asia/Manila");
 class Database
 {
-    private $host = "localhost";
-    private $db_name = "kbf_sysdb";
-    private $username = "root";
-    private $password = '';
+    // private $host = "localhost";
+    // private $db_name = "kbf_sysdb";
+    // private $username = "root";
+    // private $password = '';
 
-    // private $host = "216.218.206.40";
-    // private $db_name = "kbfdenta_sysdb";
-    // private $username = "kbfdenta_sysadmin";
-    // private $password = '$ysAdmin2022';
+    private $host = "216.218.206.40";
+    private $db_name = "kbfdenta_sysdb";
+    private $username = "kbfdenta_sysadmin";
+    private $password = '$ysAdmin2022';
 
     public $conn;
 
