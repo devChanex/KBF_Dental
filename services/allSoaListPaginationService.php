@@ -118,5 +118,10 @@ if ($currentPage < $totalPages) {
 echo '</ul>';
 echo '</nav>';
 
+$startRecord = ($currentPage - 1) * $itemPerPage + 1;
+$endRecord = min($startRecord + $itemPerPage - 1, $totalRecords);
 
+echo '<div class="text-center mb-2">';
+echo "Showing <strong>$startRecord</strong> to <strong>$endRecord</strong> of <strong>$totalRecords</strong> Entries";
+echo '</div>';
 ?>
